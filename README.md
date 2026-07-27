@@ -1,4 +1,3 @@
-# Enterprise-Document-Intelligence-Platform
 # 📚 Enterprise Document Intelligence Platform
 
 An AI-powered **Retrieval-Augmented Generation (RAG)** application that enables users to upload enterprise documents, perform semantic search, and interact with them through an intelligent conversational interface.
