@@ -8,7 +8,7 @@ Developed as part of an **AI Engineering Internship – Week 2**.
 
 ## Features
 
-- 📄 Upload PDF and DOCX documents
+- 📄 Upload PDF, TXT and MARKDOWN documents
 - ✂️ Automatic document chunking
 - 🧠 Embedding generation using Sentence Transformers
 - 🗂 Persistent vector storage with ChromaDB
@@ -75,10 +75,11 @@ The detailed architecture diagram is available in the **docs** folder.
 ```text
 components/
     chat.py
-    upload_panel.py
-    document_library.py
     document_filter.py
+    document_library.py
+    sidebar.py
     templates.py
+    upload_panel.py
 
 utils/
     loader.py
